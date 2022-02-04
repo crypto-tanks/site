@@ -1,0 +1,29 @@
+<div class="container" id="about" >
+    <div class="row header-block">
+        <div class="col-12">
+            <h1 class="text-center font-weight-bolder">{{ lang.block_about.header }}</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">                    
+            <div class="accordion" id="accordionExample">
+                {% for k, item in lang.block_about.items %}
+                    <div class="card">
+                        <div class="card-header" id="headingOne{{ k }}" >
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left px-0" type="button" data-toggle="collapse" data-target="#collapseOne{{ k }}" aria-expanded="true" aria-controls="collapseOne{{ k }}">
+                                    {{ item.header }}
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseOne{{ k }}" class="collapse" aria-labelledby="headingOne{{ k }}" data-parent="#accordionExample">
+                            <div class="card-body">
+                                {{ item.description }}
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}            
+            </div>
+        </div>
+    </div>
+</div>

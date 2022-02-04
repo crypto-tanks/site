@@ -1,0 +1,28 @@
+<div class="container" id="roadmap" >
+
+    <div class="row mt-4 mb-4 pt-4 pb-4">
+        <div class="col-md-8 offset-md-2">
+            <h1 class="text-center font-weight-bolder">{{ lang.block_steps.header }}</h1>
+        </div>
+    </div>
+
+    <div class="js-stages-slick">
+        {% for index, row in lang.block_steps.items %}
+            <div>
+                <div class="row">
+                    <div class="col-12">
+                        <h2>{{ index + 1 }}</h2>
+                        <hr>
+                        <p>{{ row.date }}</p>
+                        <ul class="navbar-nav">
+                            {% for text in row.items %}
+                                <li>{{ text }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+</div>

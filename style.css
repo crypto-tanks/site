@@ -1,0 +1,96 @@
+*{
+    font-family: 'Montserrat', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    
+  background-color: white;
+}
+
+.tank-font{
+    font-family: prstart;
+}
+
+  /*.embed-responsive-16by9::before {
+    background: url('img/display.jpg');
+    border: 7px solid white;
+    border-radius: 6px;
+    box-shadow: inset 2px 2px 62px #000;
+  }*/
+  .embed-responsive-16by9 {
+    box-shadow: 30px 0px 30px -20px #ffdc89, -30px 0px 30px -20px #ffdc89;
+  }
+
+
+  /* ------------------------------------------------------------------------------*/
+  .navbar-dark {
+    background: #000;
+    padding: 1.2rem 0;
+  }
+  .slick-arrow {
+    display: none !important;
+  }
+  #game_offer {
+    padding: 8rem 0;
+    background: #000;
+  }
+  .embed-responsive {
+    height: 448px;
+    width: 512px;
+    border-radius: 15px;
+  }
+.card-text{
+    text-align: justify;
+    font-size: 12px;
+    font-weight: 400;
+}
+.list-group-item {
+font-size: 13px;
+font-weight: 500;
+}
+.header-block {
+    padding: 40px 0;
+  }
+
+.header-dark {
+    padding-top: 0px !important;
+    padding-bottom: 20px !important;
+}
+
+.card-header{ background: #ffffff !important; }
+.card-header button{ color: #333 !important; font-size: 18px; font-weight: 500;}
+.card-header button:focus { box-shadow: none !important; text-decoration-line: none; }
+.card-header button:hover { text-decoration-line: none; }
+
+.vladenie .nav-item {
+    background: #e8e8e8 !important;
+    margin: 0 7px 0 0;
+    border-radius: 4px;
+    box-shadow: inset 0px 0px 4px rgba(0,0,0,0.09);
+}
+.vladenie .nav-item > span:first-child { font-weight: 600; }
+.vladenie .nav-item > span { display: block; }
+
+.badge.rarity.common { background: #d7d7d7; }
+.badge.rarity.rare { background: #73bdff; }
+.badge.rarity.epic { background: #ec8eff; }
+.badge.rarity.legendary { background: #ffcf5d; }
+
+.tpl-stages hr:after {
+    position: absolute;
+    content: "";
+    padding: 10px;
+    background: #ffd34f;
+    margin-top: -10px;
+    border-radius: 50%;
+}
+  
+.tpl-stages .navbar-nav li {
+    line-height: 21px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    background: #fffaec;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 6px;
+}
