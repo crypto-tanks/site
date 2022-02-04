@@ -9,7 +9,7 @@ UI.helpers = {
     // Предзагрузка куска кода с рендерингом
     load_file_memory: {},
     tpl: async ( pathname, objectData, cache = true ) => {
-        let tplString = ( cache && UI.helpers.load_file_memory[pathname] !== undefined ) ? UI.helpers.load_file_memory[pathname] : await fetch(`/layouts/${pathname}.twig`).then(res => res.text())
+        let tplString = ( cache && UI.helpers.load_file_memory[pathname] !== undefined ) ? UI.helpers.load_file_memory[pathname] : await fetch(`/site/layouts/${pathname}.twig`).then(res => res.text())
         return twig({ data: tplString }).render( objectData )
     },
 
