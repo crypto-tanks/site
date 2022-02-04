@@ -177,7 +177,7 @@ lang.block_steps = {
                 ` ✔ Development of a cryptocurrency coin contract`,
                 ` 🔨 Development of the account interface and online mode`,
                 ` 🔨 Development of a landing page to attract players and investors to the project`,
-                ` ⏱ Creating a telegram channel for publishing news`
+                ` ✔ Creating a telegram channel for publishing news`
             ]
         },
         {
