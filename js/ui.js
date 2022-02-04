@@ -57,15 +57,15 @@ $(function(){
                     })
                 }
 				
-				await loadScript('/js/helpers.js')
-				await loadScript('/js/layouts.js')
+				await loadScript('/site/js/helpers.js')
+				await loadScript('/site/js/layouts.js')
                                  
             },
 
             /** @dev : Предзагрузка конфига */
             getAppConfig: () => {
                 return new Promise(( resolve, reject ) => {
-					$.getJSON( "/config.json", result => {
+					$.getJSON( "/site/config.json", result => {
                         UI.app_configs = result
                         resolve()
 					});
@@ -82,7 +82,7 @@ $(function(){
 				}
 			
                 return new Promise(( resolve, reject ) => {
-					$.getScript( `/lang/${lang}.js`, () => {
+					$.getScript( `/site/lang/${lang}.js`, () => {
                         resolve()
 					});
                 })  

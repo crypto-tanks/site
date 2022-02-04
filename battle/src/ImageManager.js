@@ -189,7 +189,7 @@ var ImageManager = (function() {
   
   for (var i in images) {
     var img = new Image();
-    img.src = 'battle/images/' + i + '.png';
+    img.src = '/site/battle/images/' + i + '.png';
     img.onload = function () { ++imagesLoaded; };
     images[i] = img;
   }

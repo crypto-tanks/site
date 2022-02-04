@@ -14,7 +14,7 @@ var SoundManager = (function() {
   };
   
   for (var i in sounds) {
-    var snd = new Audio("battle/sound/" + i + ".ogg");
+    var snd = new Audio("/site/battle/sound/" + i + ".ogg");
     sounds[i] = snd;
   }
   
