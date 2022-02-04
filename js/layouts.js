@@ -13,7 +13,7 @@ UI.layouts = {
         await UI.layouts.about_block()
         await UI.layouts.levels_block()
         await UI.layouts.stages_block()
-        await UI.layouts.token_block()
+        // await UI.layouts.token_block()
         await UI.layouts.contacts_block()
         await UI.layouts.footer_block()
 
