@@ -1,0 +1,16 @@
+{
+    "lang": "english",
+    "langs": [
+		{
+			"header": "Русский",
+			"file": "russian",
+			"icon": "248-russia.svg"
+		},
+		{
+			"header": "English",
+			"file": "english",
+			"icon": "226-united-states.svg"
+		}
+	],
+    "server": "https://api.server.io"
+}
